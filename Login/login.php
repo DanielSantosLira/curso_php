@@ -12,13 +12,13 @@
             <h1>Login</h1>
         </header>
         <main>
-            <form   method="post" action="autenticador.php"  >
+            <form   method="post" action="autenticador.php">
                 <label>Usuário:
-                <input nome="user" type="text" />
+                <input name="user" type="text" />
                 </label>
 
                 <label>Senha:
-                <input nome="pass" type="password" />
+                <input name="pass" type="password" />
                 </label>
 
                 <button type="submit">Entrar</button>

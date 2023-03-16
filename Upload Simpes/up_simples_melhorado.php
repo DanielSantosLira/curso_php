@@ -26,7 +26,7 @@ try {
     $nome_arquivo_servidor = $diretorio_distino . "enviado.gif";
 
 
-    //Movendo o arquivo temporario oara o diretório final
+    //Movendo o arquivo temporario para o diretório final
     if (move_uploaded_file($_FILES["arquivo_up"]["tmp_name"], $nome_arquivo_servidor)) {
         echo "Arquivo Enviado!";
     } else throw new Exception("Error ao enviar. Erro:" . $_FILES["arquivo_up"]["erro"]);

@@ -14,8 +14,11 @@
         <main>
             <form    method="post" action="up_simples_melhorado.php"  enctype="multipart/form-data">
                 <label>Arquivo:
-                <input nome="arquivo_up" type="file" />
+
+                <input nome="arquivo_up" type="file">
+
                 </label>
+
                 <button type="submit">Enviar</button>
             </form>
         </main>
