@@ -2,7 +2,7 @@
 
 abstract class Animal {
 
-    protected $name;
+    public $name;
     public $cor;
     public $raça;
 
