@@ -32,11 +32,17 @@ $arquivo = fopen("lista_name.text", "a");
 
   $total_lista_name = count($lista_name);
 
-  for($i=0; $i< $total_lista_name; $i++)
+  for(!$i=0; $i< $total_lista_name; $i++)
   {
     echo " Olá, " . $lista_name[$i] ."<br>";
     fwrite($arquivo,  $lista_name[$i] .  "\n");
   }
 
-
+echo "<br>";
+ $i = 0;
+  while($i < count($lista_name)){
+    echo $lista_name[$i] ."<br>";
+    fwrite($arquivo, $lista_name[$i]. "\n");
+    $i++;
+  }
 ?>
