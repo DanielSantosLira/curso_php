@@ -18,7 +18,7 @@
                 </label>
 
                 <label>Senha:
-                <input name="pass" type="password" />
+                <input name="pass" type="password"  />
                 </label>
 
                 <button type="submit">Entrar</button>
