@@ -14,7 +14,7 @@ $lista_name[] = "Joana";
 $lista_name[] = "Daniel";
 $lista_name[] = "Vanessa";
 $lista_name[] = "Heloisa";
-
+$arquivo = fopen("lista_name.text", "a");
 
  var_dump($lista_name);
 
@@ -35,6 +35,7 @@ $lista_name[] = "Heloisa";
   for($i=0; $i< $total_lista_name; $i++)
   {
     echo " Olá, " . $lista_name[$i] ."<br>";
+    fwrite($arquivo,  $lista_name[$i] .  "\n");
   }
 
 
